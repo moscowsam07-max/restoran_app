@@ -10,6 +10,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
+      - run: flutter pub upgrade --major-versions
       - run: flutter pub get
       - run: flutter build appbundle --release
       - name: Upload AAB Artifact
