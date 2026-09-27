@@ -586,7 +586,7 @@ class _AccountPageWidgetState extends State<AccountPageWidget> {
                       ),
                       tileColor:
                           FlutterFlowTheme.of(context).secondaryBackground,
-                      activeColor: FlutterFlowTheme.of(context).alternate,
+                      activeThumbColor: FlutterFlowTheme.of(context).alternate,
                       activeTrackColor: Color(0xFFBAFFC6),
                       dense: false,
                       controlAffinity: ListTileControlAffinity.trailing,
